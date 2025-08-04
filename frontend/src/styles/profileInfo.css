@@ -1,0 +1,46 @@
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  color: #0f172a;
+  font-weight: 500;
+  background-color: #f1f5f9;
+  flex-shrink: 0;
+}
+
+.name {
+    font-size: 0.875rem; /* 14px */
+    font-weight: 500;
+    margin: 0;
+}
+
+.logout-btn {
+    font-size: 0.875rem; /* 14px */
+    font-weight: 500;
+    border: none;
+    background: none;
+    text-decoration: underline;
+    margin: 0;
+    align-self: flex-start;
+    cursor: pointer;
+}
+
+.logout-btn:hover {
+    color: rgb(22, 22, 163);
+}
+
+.profile-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+}

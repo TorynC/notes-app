@@ -1,0 +1,49 @@
+.Searchbar {
+    border: none;
+    font-size: 0.7rem;
+    background-color: aliceblue;
+    width: 450px;
+    height: 30px;
+    
+}
+
+.searchbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    height: 40px;
+    background-color: aliceblue;
+    align-self: center;
+    padding-right: 11px;
+    padding-left: 11px;
+    border-radius: 25px;
+}
+
+.Searchbar:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.mag-glass{
+    color:slategray;
+    cursor: pointer;
+}
+
+.mag-glass:hover{
+    color:black;
+}
+
+.clear-search {
+    color: slategray;
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 12px;
+
+}
+
+.clear-search:hover {
+    color: black;
+    
+}

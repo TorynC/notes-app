@@ -1,0 +1,15 @@
+.container {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 1.5rem;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.line {
+  font-size: 1.25rem; /* similar to text-xl */
+  font-weight: 600;
+  color: black;
+  padding: 0.5rem 0;
+}

@@ -1,0 +1,83 @@
+.note-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 12px;
+  width: 350px; /* Adjust width as needed */
+  margin: 8px;
+  position: relative;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.note-card:hover {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.note-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.note-title {
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 500;
+  margin: 0;
+  padding-right: 20px; /* Space for pin */
+}
+
+.note-date {
+  display: block;
+  font-size: 10px;
+  color: slategray;
+  margin-top: 2px;
+}
+
+.note-pin {
+  color: black;
+  font-size: 18px;
+  cursor: pointer;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.note-pin:hover {
+    color:green;
+}
+
+.note-content {
+  font-size: 12px;
+  line-height: 1.4;
+  margin: 0 0 12px 0;
+  color: #333;
+}
+
+.note-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tags {
+  font-size: 10px;
+  color: #666;
+}
+
+.note-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.action-icon {
+  color: #666;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.action-icon:hover {
+  color: green;
+}

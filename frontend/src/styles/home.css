@@ -1,0 +1,53 @@
+.notes-container {
+  width: 100%;
+  max-width: 1280px; /* adjust based on your design */
+  margin-left: auto;
+  margin-right: auto;
+    /* optional: for inner spacing */
+}
+
+.notes-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;  
+  margin-top: 2rem;  
+}
+
+.add-note-btn {
+  border-radius: 8px;
+  display:flex;
+  width: 50px;  
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(69, 133, 237);
+  position: absolute;
+  right: 2.5rem;
+  bottom: 1rem;
+}
+
+.add-note-btn:hover {
+  background-color: rgb(25, 95, 207);
+}
+
+
+
+.add-note-icon {
+  font-size: 25px;
+  color: white;
+}
+
+
+.Home-modal {
+  width: 40%;
+  max-height: 75%;
+  background-color: white;
+  border-radius: 0.375rem; /* equivalent to rounded-md in Tailwind */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3.5rem; /* equivalent to mt-14 in Tailwind (14 * 0.25rem = 3.5rem) */
+  padding: 1.25rem; /* equivalent to p-5 in Tailwind (5 * 0.25rem = 1.25rem) */
+  overflow: scroll;
+}
